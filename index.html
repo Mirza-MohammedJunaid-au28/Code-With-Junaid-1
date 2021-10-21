@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Blog</title>
+
+    <style>
+        .carousel-item {
+            height: 94vh;
+            min-height: 300px;
+            background: no-repeat scroll center scroll;
+            background-size: cover;
+            -webkit-background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR START'S -->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Code With Junaid</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Topic
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./WebDevelopment.html">Web Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./WebDevelopment.html">HTML</a></li>
+                            <li><a class="dropdown-item" href="./WebDevelopment.html">CSS</a></li>
+                            <li><a class="dropdown-item" href="./WebDevelopment.html">JAVASCRIPT</a></li>
+                            <li><a class="dropdown-item" href="./WebDevelopment.html">REACT</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Python<span
+                                        class="badge bg-secondary m-2 fs-6">New</span></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Python Core CSE</a></li>
+                            <li><a class="dropdown-item" href="#">Python DSA</a></li>
+                            <li><a class="dropdown-item" href="#">DJANGO</a></li>
+                            <li><a class="dropdown-item" href="#">FLASK</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Developer Tools<span
+                                        class="badge bg-secondary m-2 fs-6">New</span></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Gulp</a></li>
+                            <li><a class="dropdown-item" href="#">WebPack</a></li>
+                            <li><a class="dropdown-item" href="#">Jira</a></li>
+                            <li><a class="dropdown-item" href="#">Kubernets</a></li>
+                            <li><a class="dropdown-item" href="#">Docker</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR START'S -->
+
+    <!-- Alert -->
+    <div class="alert alert-dark alert-dismissible fade show" role="alert">
+        Make Sure to Follow me on GitHub <a class="mx-2" href="https://github.com/Mirza-MohammedJunaid-au26"> Click Here
+        </a> & Instragram <a class="mx-2" href="https://www.instagram.com/its_junaid_osm/"> Click here</a>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <!-- Alert -->
+
+    <!-- HOME -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./images/h1.jpg" class="d-block w-100 h-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-white">Web Development</h1>
+                    <p class="fs-4 text-white">HTML,CSS & JAVSCRIPT </p>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/node.jpg" class="d-block w-100 h-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-white">Node.js</h1>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/react.jpg" class="d-block w-100 h-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-white">React js</h1>
+                    <p class="fs-4 text-white">Redux & React Native</p>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/python.jpg" class="d-block w-100 h-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-white">Python</h1>
+                    <p class="fs-4 text-white">Core Python</p>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="carousel-itfixed-topem" data-bs-interval="2000">
+                <img src="./images/dsa.jpeg" class="d-block w-100 h-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-white">Data Structures & Algorithm using Python</h1>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/django.png" class="d-block w-100 h-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-white">DJANGO</h1>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/flasd.jpeg" class="d-block w-100 h-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-white">FLASK</h1>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- HOME -->
+
+    <!-- Information Start's -->
+    <div id="information">
+        <h1 class="my-5 text-center">Some Important Informations</h1>
+        <div class="accordion container" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Why to do Web Development ?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>1. Web Developers Are In-Demand</strong> <br>
+                        <strong>2. Web Developers Earn a Great Living</strong> <br>
+                        <strong>3. Web Developers Have Diverse Opportunities</strong> <br>
+                        <strong>4. Web Developers Get to Be Creative</strong> <br>
+                        <strong>5. Web Developers Have Flexibility</strong> <br>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion container">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        Is Web Development a Good Career ?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>As we’ve pointed out, web developers make a competitive salary compared to other
+                            industries. The high earning potential often piques the interest of many computer science
+                            prospective students, but the creativity and growth potential are what really seals the deal
+                            for most.
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion container">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Pro's & Cons's of Web Development
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>
+                        It’s always important to consider the pros and cons of any new career path. Web development has
+                        a number of pros: High earning potential, opportunity for growth, and flexibility are usually
+                        top of mind for most who get into the industry.
+                        Some of the challenges for people who pursue web development is the competitive nature of the
+                        job market. While developers are in high demand, the calibre of coders is ever-increasing,
+                        making it important to stay updated on latest tech trends and programming developments. It’s
+                        also highly specialized, so it could be limiting for individuals who like variety in their
+                        careers.
+                    </strong>
+                </div>
+            </div>
+        </div>
+        <div class="accordion container">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                    Why to do Data Structures's and Algorithm ?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong> Data structures and algorithms (DSA) goes through solutions to standard problems in detail
+                        and gives you an insight into how efficient it is to use each one of them. It also teaches you
+                        the science of evaluating the efficiency of an algorithm. This enables you to choose the best of
+                        various choices.</strong>
+                </div>
+            </div>
+        </div>
+        <div class="accordion container">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Pro's & Cons's of DSA
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>
+                        Advantages:- <br>
+                        1) Allows easier processing of data.<br>
+                        2) It allows information stored on disk very efficiently.<br>
+                        3) These are necessary for designing an efficient algorithm.<br>
+                        4) It provides management of databases like indexing with the help of hash tables and
+                        arrays.<br>
+                        5) We can access data anytime and anywhere.<br>
+                        6) It is secure way of storage of data.<br>
+                        7) Graphs models real life problems <br>
+                        8) It allows processing of data on software system<br><br>
+                        Disadvantages:-<br>
+                        1) It is applicable only for advanced users.<br>
+                        2) If any issue occurs it can be solved only by experts.<br>
+                        3) Slow access in case of some data types<br>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Information End's -->
+
+    <!-- Cards -->
+    <div class="card-section container mt-5 text-center ">
+        <h1 class="text-center mr-5">Let's Start</h1>
+        <div class="row justify-content-md-center gap-5">
+            <div class="card text-center m-auto col-xs" style="width: 18rem;">
+                <img src="./images/h1.jpg" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Web Development</h5>
+                    <a href="./WebDevelopment.html" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="card text-center col-xs m-auto" style="width: 18rem;">
+                <img src="./images/python.jpg" class="card-img-top h-100 mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Python</h5>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="card text-center m-auto col-xs" style="width: 18rem;">
+                <img src="./images/dsa.jpeg" class="card-img-top mt-2 h-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">DSA</h5>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="card text-center m-auto col-xs" style="width: 18rem;">
+                <img src="./images/django.png" class="card-img-top mt-2 h-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Django</h5>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="card text-center m-auto col-xs" style="width: 18rem;">
+                <img src="./images/flasd.jpeg" class="card-img-top mt-2 h-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Flask</h5>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="card text-center m-auto col-xs" style="width: 18rem;">
+                <img src="./images/develop.png" class="card-img-top mt-2 h-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Development Tools</h5>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Cards -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
